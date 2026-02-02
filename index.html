@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Will You Be My Valentine? 💕</title>
+  <meta name="theme-color" content="#ff6aa2">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="floating-hearts" aria-hidden="true"></div>
+
+  <main class="container">
+    <div class="card">
+      <h1>Tiasha…</h1>
+      <h2>Will you be my Valentine? 💘</h2>
+
+      <p class="subtitle">I come with unlimited hugs, late-night talks, worst jokes, and 100% real feelings 💗</p>
+
+      <div class="buttons">
+        <button class="btn yes-btn" onclick="sayYes()">Yes! 💕</button>
+        <button class="btn no-btn" id="noBtn">No 😭</button>
+      </div>
+
+      <div class="message" id="message" aria-live="polite"></div>
+
+      <div class="gif_container" id="successGif" style="display:none;">
+        <img src="https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif" alt="happy dancing bear">
+      </div>
+
+      <p class="footer">Made with extra butterflies in my stomach — Maruf 💞</p>
+    </div>
+  </main>
+
+  <!-- Keep this at the bottom -->
+  <script src="script.js"></script>
+</body>
+</html>
